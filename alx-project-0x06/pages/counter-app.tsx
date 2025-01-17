@@ -3,7 +3,7 @@ import {
   decrement,
   increment,
   useAppDispatch,
-} from "@/stores/store";
+} from "@/store/store";
 import { RootState } from "@reduxjs/toolkit/query";
 
 import { useSelector } from "react-redux";

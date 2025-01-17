@@ -4,7 +4,7 @@ import Button from "../common/Button";
 import { usePathname } from "next/navigation";
 import { UseSelector } from "react-redux";
 import { useSelector } from "react-redux";
-import { RootState } from "@/stores/store";
+import { RootState } from "@/store/store";
 const Header: React.FC = () => {
   const pathname = usePathname();
   const count = useSelector((state: RootState) => state.counter.value);
